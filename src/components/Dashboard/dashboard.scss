@@ -3,13 +3,15 @@
         position: absolute;
         background-color: rgba(255, 255, 255, 0.274);
         backdrop-filter: blur(4px);
-        transition: all 1s ease-in-out;
+        //transition:  1s ease-in-out;
         height: 65vh;
         width: 100vw;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
         padding-bottom: calc(1em + env(safe-area-inset-bottom));
         bottom: env(safe-area-inset-bottom, 6rem);
+        left: 0;
+        
     
     
     }
@@ -56,12 +58,14 @@
 .main__dashboardContainer.closed {
 /* Styles pour la position fermée */
 bottom: -55vh;
+transition:  1s ease-in-out;
 
 }
 
 .main__dashboardContainer.open {
 /* Styles pour la position ouverte */
 bottom: 0;
+transition:  1s ease-in-out;
 
 
 }
