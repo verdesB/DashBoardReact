@@ -16,11 +16,12 @@
     &__linkLogo {
         box-sizing: border-box;
         display: inline-block;
-
+        cursor: pointer;
+        margin-left:4rem;
     }
 
     &__logo {
-        border: none;
+       
         background-image: url(../../assets/icons/logo.svg);
         height: 5rem;
         width: 5rem;

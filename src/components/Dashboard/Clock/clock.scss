@@ -1,0 +1,35 @@
+.clock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 30%;
+    max-width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.minutes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 30%;
+}
+.secondes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 30%;
+}
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    
+} 
