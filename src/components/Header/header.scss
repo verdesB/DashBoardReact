@@ -1,0 +1,94 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15vh;
+
+    &__containerLogo {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        
+
+    }
+
+    &__linkLogo {
+        box-sizing: border-box;
+        display: inline-block;
+
+    }
+
+    &__logo {
+        height: 5rem;
+        width: 5rem;
+
+    }
+
+    &__nav {
+        flex: 2;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        
+        padding: 1rem;
+    }
+
+    &__buttonList {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    &__buttondark {
+        height: 3rem;
+        width: 3rem;
+
+        border: none;
+        /* Pas de bordure */
+        background-color: rgba(255, 255, 255, 0.301);
+        backdrop-filter: blur(5px);
+        background-image: url(../../../static/assets/icons/DarkMode2.svg);
+        padding: 0;
+        /* Rembourrage */
+        text-align: center;
+        /* Texte centré */
+        text-decoration: none;
+        /* Pas de soulignement */
+        display: inline-block;
+        /* Affichage en ligne */
+        
+        
+        border-radius: 2rem;
+        cursor: pointer;
+        /* Curseur en forme de main */
+    }
+    &__buttonuser {
+        height: 3rem;
+        width: 3rem;
+
+        border: none;
+        /* Pas de bordure */
+        background-color: rgba(255, 255, 255, 0.301);
+        backdrop-filter: blur(5px);
+        background-image: url(../../../static/assets/icons/user.svg);
+        padding: 0;
+        /* Rembourrage */
+        text-align: center;
+        /* Texte centré */
+        text-decoration: none;
+        /* Pas de soulignement */
+        display: inline-block;
+        /* Affichage en ligne */
+        
+       
+        border-radius: 2rem;
+        cursor: pointer;
+        /* Curseur en forme de main */
+    }
+
+   
+
+
+
+}

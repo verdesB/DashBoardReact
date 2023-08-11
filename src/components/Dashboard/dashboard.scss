@@ -1,0 +1,67 @@
+.main {
+    &__dashboardContainer {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.274);
+        backdrop-filter: blur(4px);
+        transition: all 1s ease-in-out;
+        height: 65vh;
+        width: 100vw;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        padding-bottom: calc(1em + env(safe-area-inset-bottom));
+        bottom: env(safe-area-inset-bottom, 6rem);
+    
+    
+    }
+    
+    &__buttonDash {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.274);
+        backdrop-filter: blur(4px);
+        border-radius: 2rem;
+        top: -12%;
+        left: 50%;
+        transform: translateX(-50%);
+        border: none;
+        background-image: url(../../../static/assets/icons/upArrow.svg);
+        background-size: cover;
+        width: 3rem;
+        height: 3rem;
+    
+    }
+    
+    &__buttonDashOpen {
+        background-image: url(../../../static/assets/icons/downArrow.svg);
+    }
+    
+    &__buttonImgdash {
+        height: 2.5rem;
+        width: 2rem;
+    }
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+.main__dashboardContainer.closed {
+/* Styles pour la position fermée */
+bottom: -55vh;
+
+}
+
+.main__dashboardContainer.open {
+/* Styles pour la position ouverte */
+bottom: 0;
+
+
+}

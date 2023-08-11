@@ -1,0 +1,49 @@
+.main {
+    &__searchContainer {
+        display: flex;
+        box-sizing: border-box;
+
+        justify-content: center;
+        text-align: center;
+
+
+
+    }
+
+    &__search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 1rem 4rem;
+
+        height: 4vh;
+        width: 100vw;
+
+
+    }
+
+    &__inputSearch {
+        border: 1px solid white;
+        border-radius: 2rem;
+        height: 2.5rem;
+        min-width: 70vw;
+        background-color: rgba(255, 255, 255, 0.301);
+        backdrop-filter: blur(5px);
+    }
+
+    &__buttonSearch {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 2rem;
+        background-image: url(../../../../static/assets/icons/search.svg);
+        border: 1px solid rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.301);
+        backdrop-filter: blur(5px);
+    }
+
+    &__buttonImg {
+        height: 2.5rem;
+        width: 2rem;
+    }
+}
