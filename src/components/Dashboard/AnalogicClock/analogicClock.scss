@@ -1,0 +1,85 @@
+.containerAnalogic {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.analogic {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    height:250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../assets/icons/cadranClock.svg);
+    background-size: cover;
+    margin: 0;
+}
+.analogic::before {
+    content: "";
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 0 20px 10px rgba($color: #222222, $alpha: 1.0);
+    z-index: 100;
+}
+
+.heur, .minut, .second {
+    position: absolute;
+}
+.heur ,.hr {
+    height: 160px;
+    width: 160px;
+   
+}
+.minut ,.min {
+    height: 190px;
+    width: 190px;
+}
+
+.second ,.sec {
+    height: 230px;
+    width: 230px;
+}
+
+.hr::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 80px;
+    background-color: black;
+    border-radius: 6px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+
+}
+.min::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 90px;
+    background-color: black;
+    border-radius: 6px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sec::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
