@@ -19,6 +19,7 @@
     width: 30%;
     font-size: 4rem;
     border-bottom: 0.2rem solid black;
+    -webkit-text-stroke: 1px white;
     
 }
 .minutes {
@@ -30,6 +31,7 @@
     border-left: 0.2rem solid black;
     border-bottom: 0.2rem solid black;
     border-right: 0.2rem solid black;
+    -webkit-text-stroke: 1px white;
     
 }
 .secondes {
@@ -39,6 +41,7 @@
 width: 33%;
 font-size: 4rem;
 border-bottom: 0.2rem solid black;
+-webkit-text-stroke: 1px white;
 }
 .date {
     display: flex;
@@ -48,5 +51,6 @@ border-bottom: 0.2rem solid black;
     text-align: center;
     font-family: SanFrancisco Apple;
     font-size: 1.5rem;
+    -webkit-text-stroke: 1px white;
     
 } 

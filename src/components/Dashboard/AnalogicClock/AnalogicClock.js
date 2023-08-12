@@ -1,5 +1,19 @@
 import './analogicClock.scss';
+import { rotateClock } from './function';
+import { useEffect } from 'react';
+
 export const AnalogicClock = () => {
+    useEffect(() => {
+        setInterval(() => {
+            let now = new Date();
+            let heur = now.getHours();
+            let minut = now.getMinutes();
+            let second = now.getSeconds();
+            rotateClock(heur, minut, second);
+        
+        },
+        1000);
+    }, []);
     return(
         <div className='containerAnalogic'>
         <div className="analogic">
