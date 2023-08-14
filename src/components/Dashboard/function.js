@@ -4,13 +4,13 @@ export const dashBoardFunction = () => {
     const container = document.querySelector('.main__dashboardContainer');
     
     // Ajoutez un gestionnaire d'événements au bouton
-    button.addEventListener('click', () => {
+    button.addEventListener('click', (event) => {
       // Basculez entre les classes open et closed sur l'élément main__dashboardContainer
       container.classList.toggle('open');
       container.classList.toggle('closed');
       button.classList.toggle('main__buttonDashOpen')
       
         
-      
+      event.preventDefault
     });
 }
