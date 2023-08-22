@@ -9,7 +9,7 @@ body {
     width: 100vw;
     height: 100vh;
     //background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-    background-image: radial-gradient(circle, #1f3634, #04464d, #00566e, #006393, #006db5, #027ccb, #028be1, #009bf7, #00b6ff, #00ceff, #00e5f8, #1af9ea);
+    background-color: black;
     background-size: cover;
 }
 
@@ -20,4 +20,9 @@ body {
 @font-face {
     font-family: SanFrancisco Apple;
     src: url(../../assets/fonts/SFNSDisplay-Semibold.otf);
+}
+
+button:hover {
+    background-color: rgba(202, 202, 202, 0.801);
+    transform: scale(1.1);
 }
