@@ -1,14 +1,16 @@
 .containerAnalogic {
-    
-    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .analogic {
     //display: inline-block;
     box-sizing: border-box;
     border: 2px solid rgba(255, 255, 255, 0.507);
     border-radius: 1rem;
-    height:30%;
-    width: 150px;
+    height: 6rem;
+    width: 6rem;
     
     display: flex;
     justify-content: center;
@@ -25,9 +27,9 @@
     position: absolute;
     height: 1rem;
     width: 1rem;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    box-shadow: 0 20px 10px rgba($color: #222222, $alpha: 1.0);
+    
     z-index: 100;
 }
 
@@ -55,7 +57,7 @@
     width: 7px;
     height: 40px;
     margin-top: 15px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border-radius: 6px;
     top: 25%;
     left: 50%;
@@ -70,7 +72,7 @@
     width: 4px;
     height: 55px;
     margin-top: 13px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border-radius: 6px;
     top: 25%;
     left: 50%;

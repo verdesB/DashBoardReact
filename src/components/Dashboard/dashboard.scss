@@ -7,6 +7,7 @@
         -webkit-backdrop-filter: blur(4px);
         //transition:  1s ease-in-out;
         height: 65vh;
+        
         width: 100vw;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
@@ -18,9 +19,8 @@
         //flex-direction: row;
         //flex-wrap: wrap;
         //gap: 0.5rem;
-        display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(1, 1fr);
+   
+  //overflow: hidden;
 
         
         
@@ -78,4 +78,15 @@ bottom: 0;
 transition:  1s ease-in-out;
 
 
+}
+//::-webkit-scrollbar {
+//    display: none;
+//}
+
+.scroll {
+    overflow-y: scroll;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
 }
