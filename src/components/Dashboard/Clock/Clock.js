@@ -1,3 +1,4 @@
+
 import { updateClock } from './clockFunction'
 import { useEffect } from 'react';
 import './clock.scss';
@@ -11,19 +12,19 @@ export const Clock = () => {
     }, []);
 
     return(
-        <>
-            <div className="clock">
-                <div className="hours">
+        <div className='containerClock'>
+        <div className="clock">
+            <div className="hours">
 
-                </div>
-                <div className="minutes">
-
-                </div>
-                <div className="secondes">
-
-                </div>
-                <div className="date"></div>
             </div>
-        </>
+            <div className="minutes">
+
+            </div>
+            <div className="secondes">
+
+            </div>
+            <div className="date"></div>
+        </div>
+    </div>
     ) 
 }
