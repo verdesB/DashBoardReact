@@ -18,15 +18,15 @@
         display: inline-block;
         cursor: pointer;
         margin-left:1rem;
+        
     }
 
-    &__logo {
-       
-        background-image: url(../../assets/icons/logo.svg);
-        height: 5rem;
-        width: 5rem;
-
-    }
+  &__logo {
+    //background-image: url(../../assets/icons/logovb.svg);
+    width: 5rem;
+    height: 5rem;
+    
+  }
 
     &__nav {
         flex: 2;

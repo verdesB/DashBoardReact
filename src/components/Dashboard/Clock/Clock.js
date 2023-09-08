@@ -12,7 +12,7 @@ export const Clock = () => {
     }, []);
 
     return(
-        <div className='containerClock'>
+    <div className='containerClock'>
         <div className="clock">
             <div className="hours">
 
