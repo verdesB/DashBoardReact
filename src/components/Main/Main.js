@@ -12,9 +12,9 @@ export const Main = () => {
     
     return (
         <main className="main">
-            <AnalogicClock/>
-            <SearchBar/>
             
+            <SearchBar/>
+            <AnalogicClock/>
             <Dashboard/>
             
 

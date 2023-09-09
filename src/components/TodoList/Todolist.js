@@ -1,6 +1,6 @@
-import Form from './Form/Form'
+import Form from './Form/Form.js';
 import List from './List/List';
-
+import './todolist.scss'
 import React , { useState, useEffect } from 'react'
 
 const Todolist = () => {
@@ -33,7 +33,7 @@ const Todolist = () => {
   
     return (
        <div className='todoList'>
-        <h1>⬇️ Add Your Tasks ⬇️</h1>
+        <h1>⬇️Add Your Tasks⬇️</h1>
         <Form onSubmit={addTodo} editTodo={editTodo} />
         <List todos={todos} onEdit={handleEdit} onDelete={handleDelete} />
       </div>

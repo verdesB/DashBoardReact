@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-
+import './form.scss'
 const Form = ({ onSubmit, editTodo }) => {
     const [input, setInput] = useState(editTodo ? editTodo.text : '');
   

@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(../../../assets/icons/cadranClock.svg);
+    background-color: rgba(255, 255, 255, 0.433);
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -54,9 +55,9 @@
 .hr::before {
     position: absolute;
     content: "";
-    width: 7px;
-    height: 40px;
-    margin-top: 15px;
+    width: 4px;
+    height: 20px;
+    margin-top: 25px;
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
     top: 25%;
@@ -70,8 +71,8 @@
     position: absolute;
     content: "";
     width: 4px;
-    height: 55px;
-    margin-top: 13px;
+    height: 40px;
+    margin-top: 25px;
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
     top: 25%;
@@ -82,7 +83,8 @@
     position: absolute;
     content: "";
     width: 2px;
-    height: 60px;
+    height: 45px;
+    margin-top: 15px;
     background-color: rgb(255, 0, 0);
     border-radius: 6px;
     top: 35%;

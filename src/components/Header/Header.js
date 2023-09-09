@@ -1,4 +1,4 @@
-
+import './header.scss'
 import { Logo } from "./Logo/Logo"
 import { Nav } from "./Nav/Nav"
 

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react"
 import Todo from "../Todo/Todo";
-
+import './list.scss'
 
 const List = ({ todos, onEdit, onDelete }) => {
     return (
