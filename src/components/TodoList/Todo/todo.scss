@@ -3,7 +3,7 @@
    border-radius: 0.5rem;
    display: flex;
    border: 1px solid white;
-   max-width: 100%;
+   width: 100%;
    min-height: 5rem;
 
    &__text {
@@ -39,14 +39,17 @@
    }
    &__btn button:first-child {
      background-color: rgba(255, 255, 255, 0);
-      background-image: url(../../../assets/icons/modif.svg);
+      background-image: url(../../../assets/icons/update.svg);
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 1rem;
       background-position: center;
    }
    &__btn button:last-child {
       background-color: rgba(255, 255, 255, 0);
-      background-image: url(../../../assets/icons/moin.svg);
+      background-image: url(../../../assets/icons/new.svg);
+      background-repeat: no-repeat;
+      background-size: 1rem;
+      background-position: center;
   
    }
  }
