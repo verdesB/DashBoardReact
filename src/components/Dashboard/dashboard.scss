@@ -8,7 +8,7 @@
         //transition:  1s ease-in-out;
         height: 65vh;
         
-        width: 100%;
+        width: 100vw;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
         padding-bottom: calc(1em + env(safe-area-inset-bottom));
@@ -91,4 +91,9 @@ transition:  1s ease-in-out;
     gap: 5rem;
     grid-template-columns: repeat(1, 1fr);
     height: 100%;
+    width: 100%;
+
 }
+.scroll::-webkit-scrollbar {
+    display: none;
+  }

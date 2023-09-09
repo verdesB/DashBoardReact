@@ -1,11 +1,10 @@
 .list-items {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 2rem;
-    width: 100%;
+    gap: 1rem;
+    margin: 1rem 1rem;
+    max-width: 90%;
     
     
 }
